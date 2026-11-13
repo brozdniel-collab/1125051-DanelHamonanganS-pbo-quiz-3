@@ -4,7 +4,7 @@ import quiz3.code.util.CLIUtil;
 public class FileControl {
     public int showEntitas(){
         System.out.println("1. Mahasiswa");
-        int pilihan = CLIUtil.readInt();
+        int pilihan = CLIUtil.readInt("");
         return pilihan;
     }
     public void aksi(){

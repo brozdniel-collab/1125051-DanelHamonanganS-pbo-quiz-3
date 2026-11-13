@@ -6,11 +6,6 @@ abstract class MahasiswaDataView extends DataView<Mahasiswa> {
     protected String getPrimaryKeyValue(Mahasiswa data) {
         return data.getNim();
     }
-
-    @Override
-    protected String[] getFields() {
-        
-    }
     
     
 }

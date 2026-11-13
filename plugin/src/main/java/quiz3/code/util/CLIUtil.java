@@ -11,10 +11,11 @@ public class CLIUtil {
         return input;
     }
 
-    public static int readInt() {
-        int input = SCANNER.nextInt();
-        return input;
+    public static int readInt(String prompt) {
+        String input = readString(prompt);
+        return Integer.parseInt(input);
     }
+
 
     public static double readDouble(String prompt) {
         String input = readString(prompt);
