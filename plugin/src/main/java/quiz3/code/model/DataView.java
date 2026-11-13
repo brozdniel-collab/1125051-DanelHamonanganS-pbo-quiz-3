@@ -10,6 +10,21 @@ abstract class DataView<T> {
 
     }
     public void pintByPk(String primarykey){
+        
+    }
+    public void showInsertForm(){
+        
+    }
+    public void showUpdateForm(){
 
     }
+    public void promptDelete(){
+
+    }
+    protected abstract String getPrimaryKeyValue(T data);
+    protected abstract String[] getFields();
+    protected abstract T convertValuesToModel(String[]values);
+    protected abstract String[]convertModelToValues(T data);
+
+
 }
